@@ -1,3 +1,5 @@
+// 脚本使用 SQL 创建表格，并在创建表格后使用 placeholder-data.js 文件中的数据填充表格。
+
 const { sql } = require('@vercel/postgres');
 const {
   invoices,
